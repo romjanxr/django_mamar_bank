@@ -4,7 +4,6 @@ User Registration
 {% endblock title %}
 {% block body %}
 
-{{ request.user }}
 {% if form.non_field_errors %}
 {% for error in form.non_field_errors %}
 <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative mt-2" role="alert">
